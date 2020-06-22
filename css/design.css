@@ -1,6 +1,9 @@
 .nm{
     margin: 0;
 }
+::selection{
+    background-color: rgb(227, 250, 239);
+}
 .btn{
     background-color: white;
     border-radius: 5px;
