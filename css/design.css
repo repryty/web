@@ -1,0 +1,49 @@
+.nm{
+    margin: 0;
+}
+.btn{
+    background-color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    box-shadow: 0 0 1px 1px rgb(211, 211, 211);
+    transition: background-color 0.1s, box-shadow 0.1s;
+}
+.btn:active{
+    background-color: rgb(233, 233, 233);
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    box-shadow: 0 0 5px 1px gray;
+    transition: background-color 0.1s, box-shadow 0.1s;
+}
+:focus{
+    outline: none;
+}
+#loading{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 3px;
+    animation-name: load;
+    animation-timing-function: ease;
+    animation-duration: 50s;
+    animation-delay: 0s;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    background-color: rgb(204, 249, 255);
+}
+@keyframes load{
+    0%{
+        width: 0;
+        opacity: 100%;
+    }
+    50%{
+        width: 50%;
+        opacity: 100%;
+    }
+    100%{
+        width: 100%;
+        opacity: 0%;
+    }
+}
