@@ -1,0 +1,18 @@
+main{
+    background-color: rgb(223, 223, 223);
+    border-radius: 15px;
+    width: 200px;
+    padding: 20px;
+    position: sticky;
+    left: 100%;
+    top: 50%;
+    bottom: 50%;
+    right: 0%;
+    transform: translateY(-50%);
+    display: inline-block;
+}
+main>#profile>img{
+    width: 200px;
+    position: inherit;
+    left: 50%;
+}
