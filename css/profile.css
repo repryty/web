@@ -6,6 +6,11 @@ main{
     padding: 10px;
     text-align: center;
     cursor: context-menu;
+    position: sticky;
+    left: 50%;
+    top: 100px;
+    transform: translateX(-200%);
+    z-index: 100;
 }
 main>img{
     width: 180px;
@@ -13,6 +18,9 @@ main>img{
     border-radius: 100px;
     border: 1px solid rgb(192, 192, 192);
     transition: filter 0.3s ease-in-out;
+}
+main>hr{
+    border: 1px solid gray;
 }
 main>img:hover{
     filter: brightness(90%);
@@ -28,6 +36,10 @@ div.profile{
     border-radius: 100px;
     margin-left: 10px;
     margin-right: 10px;
+    transition: filter 0.3s ease-in-out;
+}
+div.profile:active{
+    filter: brightness(60%);
     transition: filter 0.3s ease-in-out;
 }
 div.profile:hover{
