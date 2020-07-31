@@ -2,25 +2,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>REPRYTY - Home</title>
-    <link rel="stylesheet" href="./css/profile.css">
-    <link rel="stylesheet" href="./css/fonts.css">
-    <link rel="stylesheet" href="./css/footer.css">
+    <title>REPRYTY Web</title>
+    <link rel="stylesheet" href="./css/nav.css">
+    <link rel="stylesheet" href="./css/load.css">
+    <script src="./js/load.js"></script>
 </head>
-<body>
-    <main>
-        <img src="./img/profile-type1.png" alt="프사" id="pp">
-        <div class="profile type1" id="t1" title="이미지 변경" onclick="document.getElementById('pp').src='./img/profile-type1.png'"></div>
-        <div class="profile type2" id="t1" title="이미지 변경" onclick="document.getElementById('pp').src='./img/profile-type2.png'"></div>
-        <div class="profile type3" id="t1" title="이미지 변경" onclick="document.getElementById('pp').src='./img/profile-type3.png'"></div>
-        <span style="font-size: 30pt; font-family: '123RF';">REPRYTY</span>
-        <hr>
-        <span style="font-family: sans-serif;">안녕하세요!! <br>리프리티입뉘돠!!!!</span>
-    </main>
-    <footer>
-        <h2>REPRYTY</h2>
-        <hr>
-        <span id="twit" onclick="window.location.href='https://twitter.com/@repryty'">repryty</span>
-    </footer>
+<body onload="loadcom();">
+    <div id="loading"></div>
+    <nav>
+        <svg id="레이어_1" data-name="레이어 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 900"><title>Logo</title><path d="M477.53,437q13-9.75,13-28t-13-28q-13-9.75-36.32-9.76H397.05v8.32q31.53,32.61,63,65.23A46.06,46.06,0,0,0,477.53,437Z"/><path d="M899.5,449.5C899.5,201,698-.5,449.5-.5S-.5,201-.5,449.5C-.5,676,166.82,863.38,384.59,894.84Q283.79,526.42,183,158L339.23,319.68H443.77q32.64,0,56.32,11t36.16,31.2q12.48,20.16,12.48,47t-12.32,46.88q-12.31,20-35.36,30.88l.83,1.28L770,765.42A448.54,448.54,0,0,0,899.5,449.5Z"/><path d="M443.45,498.24h-46.4v82.24H338.81V350L230.59,238q90.25,329.94,180.53,659.88,19,1.61,38.38,1.62A448.4,448.4,0,0,0,754.59,780.28L561.53,580.48H494Z"/><path d="M397.05,446.72h35.22l-35.22-36.45Z"/></svg>
+    </nav>
+    <div style="height: 90px;"></div>
 </body>
 </html>
