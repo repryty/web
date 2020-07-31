@@ -1,0 +1,19 @@
+#loading{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background-color: aqua;
+    animation: load 50s linear 0s 1 normal forwards;
+    z-index: 999;
+    transition: top 30s ease;
+}
+@keyframes load{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 100%;
+    }
+}
