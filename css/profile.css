@@ -1,0 +1,63 @@
+main{
+    border: 1px solid #dadce0;
+    border-radius: 8px;
+    width: 200px;
+    height: 350px;
+    padding: 10px;
+    text-align: center;
+    cursor: context-menu;
+    position: sticky;
+    left: 50%;
+    top: 100px;
+    transform: translateX(-200%);
+    z-index: 100;
+}
+main>img{
+    width: 180px;
+    margin-bottom: 10px;
+    border-radius: 100px;
+    border: 1px solid rgb(192, 192, 192);
+    transition: filter 0.3s ease-in-out;
+}
+main>hr{
+    border: 1px solid gray;
+}
+main>img:hover{
+    filter: brightness(90%);
+    border-radius: 100px;
+    border: 1px solid rgb(192, 192, 192);
+    transition: filter 0.3s ease-in-out;
+}
+div.profile{
+    display: inline-block;
+    border: 1px solid gray;
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+    transition: filter 0.3s ease-in-out;
+}
+div.profile:active{
+    filter: brightness(60%);
+    transition: filter 0.3s ease-in-out;
+}
+div.profile:hover{
+    filter: brightness(70%);
+    transition: filter 0.3s ease-in-out;
+}
+div.profile.type1{
+    background-image: url(../img/profile-type1.png);
+    background-size: cover;
+}
+div.profile.type2{
+    background-image: url(../img/profile-type2.png);
+    background-size: cover;
+}
+div.profile.type3{
+    background-image: url(../img/profile-type3.png);
+    background-size: cover;
+}
+body{
+    margin: 0
+}
