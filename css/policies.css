@@ -1,0 +1,15 @@
+div{
+    top: 20px;
+    left: 50%;
+    position: absolute;
+    margin: 0;
+    background-color: silver;
+    border-radius: 10px;
+    width: 80%;
+    height: 100%;
+    transform: translateX(-50%);
+}
+div>h1{
+    text-align: center;
+    color: white;
+}
