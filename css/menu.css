@@ -1,0 +1,10 @@
+#menu{
+    background: rgb(24,24,24);
+    position: fixed;
+    top: 0;
+    left: -100%;
+    width: 40%;
+    height: 100%;
+    box-shadow: 0 0 5px 0 black;
+    transition: left 0.5s ease
+}
