@@ -23,8 +23,23 @@ nav>.three{
     height: 25px;
     width: 25px;
     position: absolute;
-    top: 0px;
+    top: 50%;
     left: 25px;
+    transform: translateY(-120%);
+}
+nav>.hamburger{
+    position: absolute;
+    top: 0px;
+    transform: translateY(-50%);
+}
+nav #hamburger-1{
+    width: 50px;
+    height: 50px;
+    padding-top: 20px;
+    transform: translateY(-20%);
+}
+nav #hamburger-1:hover>span{
+    background-color: rgb(172, 172, 172);
 }
 nav>span#c{
     position: absolute;
